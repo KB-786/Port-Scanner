@@ -1,0 +1,5 @@
+D:\C++ Project gui\Port_Scanner-master\Project1\x64\Debug\Project1.vcxprojAssemblyReference.cache
+D:\C++ Project gui\Port_Scanner-master\Project1\x64\Debug\Project1.MyForm.resources
+D:\C++ Project gui\Port_Scanner-master\Project1\x64\Debug\Project1.Scanner.resources
+D:\C++ Project gui\Port_Scanner-master\Project1\x64\Debug\Project1.TermsAndConditions.resources
+D:\C++ Project gui\Port_Scanner-master\Project1\x64\Debug\Project1.vcxproj.GenerateResource.cache
