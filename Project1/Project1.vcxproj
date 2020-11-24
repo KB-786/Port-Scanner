@@ -136,6 +136,7 @@
   <ItemGroup>
     <ClCompile Include="MyForm.cpp" />
     <ClCompile Include="Scanner.cpp" />
+    <ClCompile Include="Stop.cpp" />
     <ClCompile Include="TermsAndConditions.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -144,6 +145,9 @@
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="Scanner.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Stop.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="TermsAndConditions.h">
@@ -156,6 +160,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Scanner.resx">
       <DependentUpon>Scanner.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stop.resx">
+      <DependentUpon>Stop.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TermsAndConditions.resx">
       <DependentUpon>TermsAndConditions.h</DependentUpon>

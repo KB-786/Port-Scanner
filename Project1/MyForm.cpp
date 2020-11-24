@@ -11,3 +11,6 @@ void main(array<String^>^ args) {
 	Project1::MyForm form;
 	Application::Run(% form);
 }
+
+/*blank imnput
+portr cno char*/

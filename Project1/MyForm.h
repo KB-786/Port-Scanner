@@ -97,11 +97,10 @@ namespace Project1 {
 			this->label1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 32));
 			this->label1->ForeColor = System::Drawing::Color::White;
 			this->label1->ImageAlign = System::Drawing::ContentAlignment::TopCenter;
-			this->label1->Location = System::Drawing::Point(87, 34);
-			this->label1->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
-			this->label1->MaximumSize = System::Drawing::Size(375, 406);
+			this->label1->Location = System::Drawing::Point(116, 42);
+			this->label1->MaximumSize = System::Drawing::Size(500, 500);
 			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(139, 51);
+			this->label1->Size = System::Drawing::Size(174, 63);
 			this->label1->TabIndex = 0;
 			this->label1->Text = L"Log in";
 			this->label1->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -113,10 +112,10 @@ namespace Project1 {
 			this->textBox1->BorderStyle = System::Windows::Forms::BorderStyle::None;
 			this->textBox1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16));
 			this->textBox1->ForeColor = System::Drawing::Color::White;
-			this->textBox1->Location = System::Drawing::Point(80, 165);
-			this->textBox1->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+			this->textBox1->Location = System::Drawing::Point(107, 203);
+			this->textBox1->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBox1->Name = L"textBox1";
-			this->textBox1->Size = System::Drawing::Size(233, 25);
+			this->textBox1->Size = System::Drawing::Size(311, 31);
 			this->textBox1->TabIndex = 2;
 			this->textBox1->TextChanged += gcnew System::EventHandler(this, &MyForm::textBox1_TextChanged);
 			// 
@@ -127,11 +126,11 @@ namespace Project1 {
 			this->label2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10));
 			this->label2->ForeColor = System::Drawing::Color::White;
 			this->label2->ImageAlign = System::Drawing::ContentAlignment::TopCenter;
-			this->label2->Location = System::Drawing::Point(77, 142);
-			this->label2->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
-			this->label2->MaximumSize = System::Drawing::Size(375, 406);
+			this->label2->Location = System::Drawing::Point(103, 175);
+			this->label2->Margin = System::Windows::Forms::Padding(5);
+			this->label2->MaximumSize = System::Drawing::Size(500, 500);
 			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(73, 17);
+			this->label2->Size = System::Drawing::Size(86, 20);
 			this->label2->TabIndex = 3;
 			this->label2->Text = L"Username";
 			this->label2->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -143,29 +142,29 @@ namespace Project1 {
 			this->label3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10));
 			this->label3->ForeColor = System::Drawing::Color::White;
 			this->label3->ImageAlign = System::Drawing::ContentAlignment::TopCenter;
-			this->label3->Location = System::Drawing::Point(77, 206);
-			this->label3->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
-			this->label3->MaximumSize = System::Drawing::Size(375, 406);
+			this->label3->Location = System::Drawing::Point(103, 254);
+			this->label3->Margin = System::Windows::Forms::Padding(5);
+			this->label3->MaximumSize = System::Drawing::Size(500, 500);
 			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(69, 17);
+			this->label3->Size = System::Drawing::Size(83, 20);
 			this->label3->TabIndex = 4;
 			this->label3->Text = L"Password";
 			this->label3->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
 			// 
 			// panel1
 			// 
-			this->panel1->Location = System::Drawing::Point(80, 195);
-			this->panel1->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+			this->panel1->Location = System::Drawing::Point(107, 240);
+			this->panel1->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->panel1->Name = L"panel1";
-			this->panel1->Size = System::Drawing::Size(233, 1);
+			this->panel1->Size = System::Drawing::Size(311, 1);
 			this->panel1->TabIndex = 6;
 			// 
 			// panel2
 			// 
-			this->panel2->Location = System::Drawing::Point(80, 259);
-			this->panel2->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+			this->panel2->Location = System::Drawing::Point(107, 319);
+			this->panel2->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->panel2->Name = L"panel2";
-			this->panel2->Size = System::Drawing::Size(233, 1);
+			this->panel2->Size = System::Drawing::Size(311, 1);
 			this->panel2->TabIndex = 13;
 			// 
 			// textBox2
@@ -174,10 +173,10 @@ namespace Project1 {
 			this->textBox2->BorderStyle = System::Windows::Forms::BorderStyle::None;
 			this->textBox2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16));
 			this->textBox2->ForeColor = System::Drawing::Color::White;
-			this->textBox2->Location = System::Drawing::Point(80, 232);
-			this->textBox2->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+			this->textBox2->Location = System::Drawing::Point(107, 286);
+			this->textBox2->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBox2->Name = L"textBox2";
-			this->textBox2->Size = System::Drawing::Size(233, 25);
+			this->textBox2->Size = System::Drawing::Size(311, 31);
 			this->textBox2->TabIndex = 12;
 			this->textBox2->UseSystemPasswordChar = true;
 			// 
@@ -185,13 +184,11 @@ namespace Project1 {
 			// 
 			this->checkBox1->AutoSize = true;
 			this->checkBox1->BackColor = System::Drawing::Color::Black;
-			this->checkBox1->Checked = true;
-			this->checkBox1->CheckState = System::Windows::Forms::CheckState::Checked;
 			this->checkBox1->ForeColor = System::Drawing::Color::White;
-			this->checkBox1->Location = System::Drawing::Point(80, 305);
-			this->checkBox1->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+			this->checkBox1->Location = System::Drawing::Point(107, 375);
+			this->checkBox1->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->checkBox1->Name = L"checkBox1";
-			this->checkBox1->Size = System::Drawing::Size(95, 17);
+			this->checkBox1->Size = System::Drawing::Size(122, 21);
 			this->checkBox1->TabIndex = 14;
 			this->checkBox1->Text = L" I agree to the ";
 			this->checkBox1->UseVisualStyleBackColor = false;
@@ -205,11 +202,11 @@ namespace Project1 {
 			this->label4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 7.8F));
 			this->label4->ForeColor = System::Drawing::Color::DarkCyan;
 			this->label4->ImageAlign = System::Drawing::ContentAlignment::TopCenter;
-			this->label4->Location = System::Drawing::Point(164, 306);
-			this->label4->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
-			this->label4->MaximumSize = System::Drawing::Size(375, 406);
+			this->label4->Location = System::Drawing::Point(219, 377);
+			this->label4->Margin = System::Windows::Forms::Padding(5);
+			this->label4->MaximumSize = System::Drawing::Size(500, 500);
 			this->label4->Name = L"label4";
-			this->label4->Size = System::Drawing::Size(109, 13);
+			this->label4->Size = System::Drawing::Size(146, 17);
 			this->label4->TabIndex = 18;
 			this->label4->Text = L"Terms and Conditions";
 			this->label4->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -221,10 +218,10 @@ namespace Project1 {
 			this->button2->FlatAppearance->BorderColor = System::Drawing::Color::DarkCyan;
 			this->button2->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
 			this->button2->ForeColor = System::Drawing::Color::DarkCyan;
-			this->button2->Location = System::Drawing::Point(154, 327);
-			this->button2->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+			this->button2->Location = System::Drawing::Point(205, 402);
+			this->button2->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button2->Name = L"button2";
-			this->button2->Size = System::Drawing::Size(70, 32);
+			this->button2->Size = System::Drawing::Size(93, 39);
 			this->button2->TabIndex = 20;
 			this->button2->Text = L"Exit";
 			this->button2->UseVisualStyleBackColor = false;
@@ -233,12 +230,14 @@ namespace Project1 {
 			// button1
 			// 
 			this->button1->BackColor = System::Drawing::Color::DarkCyan;
+			this->button1->Cursor = System::Windows::Forms::Cursors::Hand;
+			this->button1->Enabled = false;
 			this->button1->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
 			this->button1->ForeColor = System::Drawing::Color::White;
-			this->button1->Location = System::Drawing::Point(80, 327);
-			this->button1->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+			this->button1->Location = System::Drawing::Point(107, 402);
+			this->button1->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(70, 32);
+			this->button1->Size = System::Drawing::Size(93, 39);
 			this->button1->TabIndex = 19;
 			this->button1->Text = L"Log in";
 			this->button1->UseVisualStyleBackColor = false;
@@ -246,10 +245,10 @@ namespace Project1 {
 			// 
 			// MyForm
 			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
+			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"$this.BackgroundImage")));
-			this->ClientSize = System::Drawing::Size(825, 468);
+			this->ClientSize = System::Drawing::Size(1100, 576);
 			this->Controls->Add(this->button2);
 			this->Controls->Add(this->button1);
 			this->Controls->Add(this->label4);
@@ -263,7 +262,7 @@ namespace Project1 {
 			this->Controls->Add(this->label1);
 			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::None;
 			this->Icon = (cli::safe_cast<System::Drawing::Icon^>(resources->GetObject(L"$this.Icon")));
-			this->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+			this->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->Name = L"MyForm";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"MyForm";
@@ -330,5 +329,6 @@ private: System::Void label4_Click(System::Object^ sender, System::EventArgs^ e)
 	TermsAndConditions^ tc = gcnew TermsAndConditions;
 	tc->ShowDialog();
 }
+
 };
 }

@@ -1,8 +1,8 @@
 ﻿  MyForm.cpp
+C:\Users\KARAN\source\repos\KB-786\Port-Scanner\Project1\Scanner.h(281,10): warning C4244: 'initializing': conversion from 'wchar_t' to 'char', possible loss of data
 C:\Users\KARAN\source\repos\KB-786\Port-Scanner\Project1\MyForm.cpp(8,33): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
   Scanner.cpp
-  TermsAndConditions.cpp
-  .NETFramework,Version=v4.6.1.AssemblyAttributes.cpp
+C:\Users\KARAN\source\repos\KB-786\Port-Scanner\Project1\Scanner.h(281,10): warning C4244: 'initializing': conversion from 'wchar_t' to 'char', possible loss of data
   Generating Code...
   MyForm.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
   Project1.vcxproj -> C:\Users\KARAN\source\repos\KB-786\Port-Scanner\x64\Debug\Project1.exe
