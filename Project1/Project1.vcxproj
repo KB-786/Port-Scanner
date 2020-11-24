@@ -143,7 +143,6 @@
     <ClInclude Include="MyForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
-    <ClInclude Include="resource.h" />
     <ClInclude Include="Scanner.h">
       <FileType>CppForm</FileType>
     </ClInclude>
@@ -161,12 +160,6 @@
     <EmbeddedResource Include="TermsAndConditions.resx">
       <DependentUpon>TermsAndConditions.h</DependentUpon>
     </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="Project11.rc" />
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="..\images\icon.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
